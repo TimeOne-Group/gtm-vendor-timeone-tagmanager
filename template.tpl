@@ -165,16 +165,15 @@ ___WEB_PERMISSIONS___
 ___SANDBOXED_JS_FOR_WEB_TEMPLATE___
 
 const injectScript = require('injectScript');
-const setInWindow = require('setInWindow');
-const copyFromWindow = require('copyFromWindow');
-const __dot = [{
-        'categoryID': data.categoryID,
-        'productID': data.productID,
-        'cartProductsID': data.cartProductsID,
-        'cartAmount': data.cartAmount,
-        'orderID': data.orderID,
-    }];
-setInWindow('__dot', __dot, true);
+const createQueue = require('createQueue');
+const __dotPush = createQueue('__dot');
+__dotPush({
+  'categoryID': data.categoryID,
+  'productID': data.productID,
+  'cartProductsID': data.cartProductsID,
+  'cartAmount': data.cartAmount,
+  'orderID': data.orderID,
+});
 
 injectScript('https://u.logbor.com/p/?i='+data.tagid+'&n=__dot', data.gtmOnSuccess, data.gtmOnFailure);
 
