@@ -1,5 +1,5 @@
 homepage: ​"www.timeonegroup.com"​,
-documentation: ​"https://www.example.com/documentation"​,
+documentation: ​"https://github.com/fabienbarbaud/gtm-vendor-timeone-tagmanager/blob/master/docs/install.md"​,
 versions:
-  - sha: 2e1c0522ef53b93bc5c1f60359db17b2e7cf7108
+  - sha: bb098a4c1bcd640290e0aa1456b417267b0b5a63
     changeNotes: ​Initial release
