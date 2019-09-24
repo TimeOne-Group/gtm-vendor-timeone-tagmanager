@@ -1,0 +1,5 @@
+homepage: ​"www.timeonegroup.com"​,
+documentation: ​"https://www.example.com/documentation"​,
+versions:
+  - sha: 2e1c0522ef53b93bc5c1f60359db17b2e7cf7108
+    changeNotes: ​Initial release
