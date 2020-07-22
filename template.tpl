@@ -85,6 +85,13 @@ ___TEMPLATE_PARAMETERS___
     "name": "HashClientSHA256",
     "displayName": "Identifiant Cross-Device",
     "simpleValueType": true
+  },
+  {
+    "type": "TEXT",
+    "help": "Indiquez ici votre propre identifiant faisant référence à votre client.",
+    "name": "hashClientID",
+    "displayName": "Identifiant Client",
+    "simpleValueType": true
   }
 ]
 
@@ -193,6 +200,7 @@ __dotPush({
   'cartProductsID': data.cartProductsID,
   'cartAmount': data.cartAmount,
   'orderID': data.orderID,
+  'hashClientID': data.hashClientID,
 });
 
 injectScript('https://u.logbor.com/p/?i='+data.tagID+'&n=__dot', data.gtmOnSuccess, data.gtmOnFailure);

@@ -43,3 +43,4 @@ Choisir : **All Pages**
 | Montant du panier | NON | Indiquez ici le montant total du panier sans inclure les frais de port. |
 | Identifiant de la commande | NON | Indiquez ici votre propre identifiant faisant référence à la commande de l'internaute. |
 | Identifiant Cross-Device | NON | Indiquez ici votre propre identifiant faisant référence à l'email du client encodé en SHA256. |
+| Identifiant Client | NON | Indiquez ici votre propre identifiant faisant référence à votre client. |
