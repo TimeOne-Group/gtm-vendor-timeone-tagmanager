@@ -1,5 +1,5 @@
 homepage: ​"www.timeonegroup.com"​,
-documentation: ​"https://github.com/fabienbarbaud/gtm-vendor-timeone-tagmanager/blob/master/docs/install.md"​,
+documentation: ​"https://github.com/TimeOne-Group/gtm-vendor-timeone-tagmanager/blob/master/docs/install.md"​,
 versions:
   - sha: 4a6f4efacc5061b76ec0dfd01ad2b6659abf38db
     changeNotes: add hashClientID variable
